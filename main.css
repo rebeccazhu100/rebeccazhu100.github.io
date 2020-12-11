@@ -1,18 +1,17 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f3f3f3
+    background-color: #000000
 }
 
 #wrapper {
     max-width: 960px;
     margin: 0 auto;
-    background-color: #fff;
-    padding: 32px;
-
+    background-color: darkgray;
+    padding: 16px;
 }
 
 header {
-    background-color: purple;
+    background-color: gray;
     height: 150px;
     padding: 4px;
 
@@ -26,7 +25,7 @@ header h1 {
 }
 
 header h2 {
-    font-variant: small-caps;
+    font-variant: arial;
     text-align: center;
     color: #fff;
 }
@@ -35,16 +34,15 @@ header h2 {
     padding: 5px 0 5px 0;
     text-align: center;
     line-height: 32px;
-    background-color: #818181
 }
 
 ul.main_menu {
     margin-top: 15px;
-
+    list-style: none
 }
 
 .main_menu {
-    display:inline;
+    display: inline;
     padding: 0 10px 0 10px;
     font-size: 20px;
 }
@@ -52,10 +50,10 @@ ul.main_menu {
 .main_menu a {
     text-decoration: none;
     color: #fff;
-    padding: 8px;
+    padding: 0px;
     font-variant: small-caps;
 }
 
 .main_menu a:hover {
-    color: purple;
+    color: teal;
 }
